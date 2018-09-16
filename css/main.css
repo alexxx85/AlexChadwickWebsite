@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins-Regular;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Poppins-Bold;
+    color: #964a4a;
+}
+
+a {
+    text-decoration: none;
+    font-family: Poppins-Italic;
+    color: #4a7a96;
+}
+
+p {
+    color: #4a7a96;
+}
+
+/********************************************/
+
+.navbar {
+    padding: 1%;
+    background-color: #090909;
+    text-align: center;
+}
+
+.navbar .right {
+    float: right;
+}
+
+@media (min-width: 1000px) {
+    .navbar nav li {
+        display: inline-block;
+    }
+
+    .navbar li{
+        margin-bottom: 15px;
+    }
+}
+
+.navbar li {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.navbar .bottom a {
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 0 5px 0 5px;
+    transition-property: all;
+    transition-duration: 500ms;
+}
+
+.navbar .bottom a:hover {
+    color: #090909;
+    background-color: #fff;
+}
+
+.navbar h3 {
+    color: white;
+}
+
+.navbarToggle {
+    color: white;
+    background: #090909;
+    text-align: center;
+}
+
+.navbarToggle:hover {
+    cursor: pointer;
+}
+
+.hrule {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(74, 180, 204, 0), rgba(74, 180, 204, 0.75), rgba(74, 180, 204, 0));
+}
+
+.about {
+    text-align: center;
+    background-color: #111111;
+    color: #9a9a9a;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+}
+
+.portfolio {
+    text-align: center;
+    background-color: #232323;
+    color: #9a9a9a;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+}
+
+.portfolioImage {
+    height: auto;
+    width: 200px;
+    background-color: #232323;
+    padding: 4vh;
+}
+
+.faq {
+    text-align: center;
+    background-color: #111111;
+    color: #9a9a9a;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+}
+
+
+.questionDiv {
+    margin-left: 20vw;
+    margin-right: 20vw;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.questionDiv h3 {
+    padding: 5px;
+    color: #4a7a96;
+    background-color: #242424;
+}
+
+.questionDiv h3:hover {
+    cursor: pointer;
+}
+
+.questionDiv p {
+    padding: 5px;
+    background-color: rgb(41, 41, 41);
+    color: #9a9a9a;
+}
+
+.contact {
+    background-color: #232323;
+    color: #9a9a9a;
+    text-align: center;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+}
+
+.contact a {
+    text-decoration: underline;
+}
