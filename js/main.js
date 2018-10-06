@@ -1,9 +1,9 @@
 $('body').hide();
 $('.navbar').hide();
 $('.answer').hide();
-    $('.answer2').hide();
-    $('.answer3').hide();
-    $('.answer4').hide();
+$('.answer2').hide();
+$('.answer3').hide();
+$('.answer4').hide();
 
 $(document).ready(function(){
     $('body').fadeIn(1000);
